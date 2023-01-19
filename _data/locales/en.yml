@@ -61,7 +61,7 @@ post:
     unit: min
     prompt: read
   relate_posts: Further Reading
-  share: Share
+  share: 
   button:
     next: Newer
     previous: Older
