@@ -1,10 +1,10 @@
 [
   
   {
-    "title": "Test",
-    "url": "/posts/TEST/",
-    "categories": "test",
-    "tags": "test",
+    "title": "How I created this blog!",
+    "url": "/posts/post_1/",
+    "categories": "blog",
+    "tags": "jekyll, chirpy, tutorial, github, pages",
     "date": "2023-01-18 07:00:00 -0500",
     
 
@@ -13,8 +13,8 @@
 
 
     
-    "snippet": "TESTsdasdsd",
-    "content": "TESTsdasdsd"
+    "snippet": "Setting up this websiteJekyll is a static site generator that transforms your plain text into beautiful static web sites and blogs.  It can be use for a documentation site, a blog, an event site, o...",
+    "content": "Setting up this websiteJekyll is a static site generator that transforms your plain text into beautiful static web sites and blogs.  It can be use for a documentation site, a blog, an event site, or really any web site you like.   It’s fast, secure, easy, and open source.  It’s also the same site generator I use to maintain my open source documentation.  Today, we’ll be installing and configuring Jekyll using the Chirpy theme.  We configure the site, create some pages with markdown, automatically build it with a GitHub action and even host it for FREE on GitHub pages.  If you don’t want to host in the cloud, show how to host it on your own server or even in Docker.Step 1 - DependenciesThe theme I used for this website is called Chirpy, which can be found here. I loved the simplicity and layout of this theme. The time it took to get this website up and running was extremely quick. I followed the steps outline in the Chirpy repo’s README.md.Make sure to follow all the instructions in the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll, and Bundler. In addition, Git is also required to be installed.Step 2 - Creating Your RepoOnce you have installed the correct dependencies, create your repo to store the Chirpy code.If you plan to use GitHub Pages make sure to name the repo &lt;GH_USERNAME&gt;.github.io, where GH_USERNAME is your GitHub username (e.g. grantvango.github.io). GitHub pages allows you to host this website for free!Step 2 - BundleOnce you have created the repo, cloned the repo to your machine. I opened a terminal and navigated to the root directory and ran the following command:$ bundleI ran into an issue here because my mac was defaulting to the package version of ruby.When following the Jekyll Docs, make sure to close your terminal after you run the following commands:echo \"source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh\" &gt;&gt; ~/.zshrcecho \"source $(brew --prefix)/opt/chruby/share/chruby/auto.sh\" &gt;&gt; ~/.zshrcecho \"chruby ruby-3.1.3\" &gt;&gt; ~/.zshrc # run 'chruby' to see actual versionThis blog post outlines how to check which version of ruby your mac is using.Step 3 - Run Website LocallyThe last command you need to run is:$ bundle exec jekyll sThis command runs the website locally, allowing you to view and make changes in realtime.You should go within the _config.yml file and make all the necessary adjustments.Step 4 - Deploy to GitHub PagesIn order to get the GitHub action to work I needed to add x86_64-linux within the PLATFORMS section of the Gemfile.lock file:PLATFORMS  arm64-darwin-22  x86_64-linuxYou can do this manually or run the following commands:$ bundle lock --add-platform x86_64-linuxFor more information on how to get this up and running visit the Chirpy wiki."
   }
   
 ]

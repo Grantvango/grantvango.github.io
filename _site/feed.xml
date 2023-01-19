@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>GVG's KB</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2023-01-18T19:37:26-05:00</updated>
+  <updated>2023-01-18T21:03:51-05:00</updated>
   <author>
     <name>Grant van Gorder</name>
     <uri>http://localhost:4000/</uri>
@@ -20,21 +20,21 @@
 
   
   <entry>
-    <title>Test</title>
-    <link href="http://localhost:4000/posts/TEST/" rel="alternate" type="text/html" title="Test" />
+    <title>How I created this blog!</title>
+    <link href="http://localhost:4000/posts/post_1/" rel="alternate" type="text/html" title="How I created this blog!" />
     <published>2023-01-18T07:00:00-05:00</published>
   
     <updated>2023-01-18T07:00:00-05:00</updated>
   
-    <id>http://localhost:4000/posts/TEST/</id>
-    <content src="http://localhost:4000/posts/TEST/" />
+    <id>http://localhost:4000/posts/post_1/</id>
+    <content src="http://localhost:4000/posts/post_1/" />
     <author>
       <name>Grant van Gorder</name>
     </author>
 
   
     
-    <category term="test" />
+    <category term="blog" />
     
   
 
@@ -46,12 +46,9 @@
 
 
 
-      TEST
+      Setting up this website
 
-sdasd
-
-sd
-
+Jekyll is a static site generator that transforms your plain text into beautiful static web sites and blogs.  It can be use for a documentation site, a blog, an event site, or really any web site you like.   It’s fast, secure, easy, and open source.  It’s also the same site generator I use to maintain my open source documentation.  Today, we’ll be installing and configu...
     </summary>
   
 
