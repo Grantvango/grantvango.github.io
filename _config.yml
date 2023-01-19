@@ -18,9 +18,9 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: GVG's KB                          # the main title
+title: Grantvango                          # the main title
 
-tagline: test  # it will display as the sub-title
+tagline: A knowledge based where I can write to forget.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
