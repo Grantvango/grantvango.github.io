@@ -3,28 +3,20 @@
 -
   type: github
   icon: 'fab fa-github'
+  url: 'https://github.com/Grantvango'
+-
+  type: discord
+  icon: 'fa-brands fa-discord'
+  url: 'https://www.linkedin.com/feed/'
+-
+  type: youtube
+  icon: 'fa-brands fa-youtube'
+  url: 'https://www.youtube.com/@gvango'
+-
+  type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/grant-van-gorder-013ab9101/'                  # Fill with your Linkedin homepage
 -
   type: twitter
   icon: 'fab fa-twitter'
--
-  type: email
-  icon: 'fas fa-envelope'
-  noblank: true            # open link in current tab
--
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
-
-# Uncomment and complete the url below to enable more contact options
-# -
-#   type: mastodon
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
-# -
-#   type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
-# -
-#   type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+  url: 'https://twitter.com/Grantvango'
